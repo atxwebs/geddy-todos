@@ -1,3 +1,4 @@
+/*
 var geddy = require('geddy');
 
 geddy.startCluster({
@@ -9,4 +10,11 @@ geddy.startCluster({
   // you will need to set an environment variable in heroku by running
   // heroku config:set NODE_ENV=production
   //environment: process.env.NODE_ENV || 'development'
+});
+*/
+
+var geddy = require('geddy');
+
+geddy.start({
+  environment: 'production'
 });
