@@ -1,10 +1,13 @@
 {
-  "name": "to_dos",
+  "name": "geddy-todos",
   "version": "0.0.1",
-  "author": "",
-  "dependencies": {},
+  "author": "Seth Bergman",
+  "dependencies": {
+    "geddy": "0.11.x"
+  },
   "devDependencies": {},
   "engines": {
-    "node": "0.8.x"
+    "node": "5.8.0",
+    "npm": "3.7.3"
   }
 }
