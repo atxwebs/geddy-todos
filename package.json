@@ -5,6 +5,9 @@
   "dependencies": {
     "geddy": "0.11.x"
   },
+  "scripts": {
+  "start": "app.js"
+},
   "devDependencies": {},
   "engines": {
     "node": "5.8.0",
