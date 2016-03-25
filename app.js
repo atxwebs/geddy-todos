@@ -15,6 +15,8 @@ geddy.startCluster({
 
 var geddy = require('geddy');
 
-geddy.start({
+geddy.startCluster({
+  hostname: process.env.IP || '0.0.0.0',
+  port: process.env.PORT || '4000',
   environment: 'production'
 });
