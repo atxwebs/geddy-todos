@@ -32,11 +32,11 @@ var config = {
   , includePattern: '\\.(js|coffee|css|less|scss)$'
   , excludePattern: '\\.git|node_modules'
   }
-//, hostname: null
-//, port: 4000
-//, model: {
-//    defaultAdapter: 'filesystem'
-//  }
+, hostname: null
+, port: 4000
+, model: {
+    defaultAdapter: 'filesystem'
+  }
 , sessions: {
     store: 'filesystem'
   , filename: '_session_store.json'
