@@ -1,3 +1,4 @@
+(function () {
 var Step = function () {
 
   this.defineProperties({
@@ -15,7 +16,7 @@ var Step = function () {
   }, {message: "Status must be 'open' or 'done.'"});
 
   this.belongsTo('ToDo');
-
+  
   /*
   this.property('login', 'string', {required: true});
   this.property('password', 'string', {required: true});
